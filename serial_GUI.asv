@@ -361,38 +361,7 @@ xlabel('Time');
 title('Temperature','fontsize',10);
 grid
 
-figure(2)
-subplot(2,2,1)
-plot(F0i)
-title(1);
-ylabel('Pressure_0 [Hgmm]');
-xlabel('Time'); 
-title('First Pressure sensor','fontsize',10);
-grid on
-
-subplot(2,2,2)
-plot(F1i)
-title(1);
-ylabel('Pressure_1 [Hgmm]');
-xlabel('Time'); 
-title('Second Pressure sensor','fontsize',10);
-grid on
-
-subplot(2,2,3)
-plot(F2i)
-title(1);
-ylabel('Pressure_2 [Hgmm]');
-xlabel('Time'); 
-title('Third Pressure sensor','fontsize',10);
-grid on
-
-subplot(2,2,4)
-plot(F4i)
-title(1);
-ylabel('Pressure_4 [Hgmm]');
-xlabel('Time'); 
-title('Fourth Pressure sensor','fontsize',10);
-grid on
+fi
 
 
 % 
